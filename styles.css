@@ -1,0 +1,106 @@
+/* Reset default margin, padding, and box sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base styles for the body */
+  body {
+    font-family: Verdana, sans-serif;
+    background-color: #0A0A23;
+    color: #ffffff;
+  }
+  
+  /* Styles for the FreeCodeCamp logo */
+  .freecodecamp-logo {
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Title styles */
+  .title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Container styles to center content */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* Styles for the palindrome input box */
+  .palindrome-box {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 6px 6px #002ead;
+  }
+  
+  /* Styles for the label */
+  label {
+    color: #0a0a23;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the text input */
+  #text-input {
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #5A01A7;
+  }
+  
+  /* Styles for the button */
+  button {
+    background-color: #5A01A7;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    width: 90px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Styles for the definition box */
+  .definition {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #00471b;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    min-height: 140px;
+  }
+  
+  /* Center-align text inside paragraphs */
+  p {
+    text-align: center;
+  }
+  
+  /* Empty styles for the span element */
+  span {}
+  
+  /* Styles for the result text */
+  #result {
+    padding: 25px;
+    color: black;
+  }
+  
